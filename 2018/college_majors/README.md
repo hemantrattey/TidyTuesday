@@ -1,8 +1,10 @@
 # 538 - Economic Guide to Picking a College Major
 
+## Getting The Data
+
 The data behind the story [The Economic Guide To Picking A College Major](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/).
 
-[Raw data](https://github.com/rfordatascience/tidytuesday/blob/master/data/2018-10-16/recent-grads.csv)
+[Raw data](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-10-16/recent-grads.csv)
 
 All data is from American Community Survey 2010-2012 Public Use Microdata Series.
 
@@ -10,7 +12,7 @@ Original data and more: http://www.census.gov/programs-surveys/acs/data/pums.htm
 
 Documentation here: http://www.census.gov/programs-surveys/acs/technical-documentation/pums.html
 
-## Data Dictionary
+### Data Dictionary
 
 Header | Description
 ---|---------
@@ -35,3 +37,6 @@ Header | Description
 `College_jobs` | Number with job requiring a college degree
 `Non_college_jobs` | Number with job not requiring a college degree
 `Low_wage_jobs` | Number in low-wage service jobs
+
+## Analyzing the Data
+
